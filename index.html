@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Maher El Mir</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#personal-projects">Side Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Maher El MIR</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#work-experience" onclick="toggleMenu()">Work Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#personal-projects" onclick="toggleMenu()">Side Projects</a></li>
+          <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/maher1.png" alt="Maher pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Maher El Mir</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Maher El Mir cv eng.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/maher-el-mir'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://https://github.com/maher3301'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/rounded_dev_image.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Software Engineering<br /> Bachelor’s Degree in Electrical Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm Maher El Mir, a Software Engineering Student with a strong passion for App Development,
+ Web Development, and Python. I specialize in building innovative mobile apps ,
+developing web applications, and creating backend solutions.
+ My foundation in Electrical Engineering adds a unique perspective,
+ allowing me to approach problems from both hardware and software angles.
+ I'm passionate about combining these skills to develop impactful,
+ user-friendly solutions that solve real-world challenges
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Technical Skills</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Technical Skills</h2>
+        <div class="article-container">
+          <article>
+            <h3>Programming Languages</h3>
+            <p>Python, PHP, Java, JavaScript, Dart, TypeScript</p>
+          </article>
+          <article>
+            <h3>Web Technologies</h3>
+            <p>React.js, Angular, HTML5, CSS, Node.js, Express.js, JWT, Stripe, SendGrid</p>
+          </article>
+          <article>
+            <h3>Frameworks & Tools</h3>
+            <p>.NET ASP, Spring Boot, Flutter</p>
+          </article>
+          <article>
+            <h3>Database Management</h3>
+            <p>SQL, Firebase, MongoDB</p>
+          </article>
+          <article>
+            <h3>Cloud Services</h3>
+            <p>Azure, Docker, Huawei</p>
+          </article>
+          <article>
+            <h3>Development Practices</h3>
+            <p>Agile Development, Git/GitHub, Remote Work Communication</p>
+          </article>
+          <article>
+            <h3>Soft Skills</h3>
+            <p>Team collaboration, problem-solving, project management</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#work-experience'"
+  />
+</section>
+    <section id="work-experience">
+  <p class="section__text__p1">My Professional</p>
+  <h1 class="title">Work Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <div class="experience-header">
+          <img src="assets/Gross Innovation.png" alt="Gross Innovations" class="company-logo" />
+          <div class="experience-info">
+            <h2 class="experience-sub-title">Software Development Intern</h2>
+            <h3 class="company-name">Gross Innovations</h3>
+            <p class="experience-duration">June 2025</p>
+          </div>
+        </div>
+        <div class="experience-description">
+          <h4>Key Achievements:</h4>
+          <ul class="achievement-list">
+            <li>Developed a MERN stack website builder with drag-and-drop functionality</li>
+            <li>Implemented email verification system using SendGrid</li>
+            <li>Integrated user authentication with JWT and Google OAuth</li>
+            <li>Built Stripe billing system for subscription management</li>
+            <li>Created comprehensive admin dashboard for template and user management</li>
+            <li>Collaborated in Agile development environment with GitHub version control</li>
+            <li>Delivered results ahead of schedule while maintaining high code quality</li>
+          </ul>
+          <div class="tech-stack">
+            <h4>Technologies Used:</h4>
+            <div class="tech-tags">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">JWT</span>
+              <span class="tech-tag">Stripe</span>
+              <span class="tech-tag">SendGrid</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+  />
+</section>
+    <section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="assets/Mern stack app.png"
+            alt="MERN Stack Website Builder"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">MERN Stack Website Builder</h2>
+        <p class="project-description">MERN stack website builder developed during internship at Gross Innovations.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='#'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='#'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/maher_pub.png"
+            alt="Food Delivery App"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Food Delivery App</h2>
+        <p class="project-description">Flutter-based food delivery application with user authentication, real-time order tracking, and payment integration.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/maher3301/Food-Delivery-app-FLUTTER/tree/main/digitallife'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/maher3301/Food-Delivery-app-FLUTTER/tree/main/digitallife'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/Task Me.png"
+            alt="Task Manager App"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Task Manager App</h2>
+        <p class="project-description">Flutter task management application with intuitive UI, task categorization, and productivity tracking features.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/maher3301/Task-Manger-Flutter'"
+          >
+            Github
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/maher3301/Task-Manger-Flutter'"
+          >
+            Live Demo
+          </button>
+        </div>
+      </div>
+    </div>
+    
+     Second row of projects 
+    
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#personal-projects'"
+  />
+</section>
+<section id="personal-projects">
+  <p class="section__text__p1">Personal Coding</p>
+  <h1 class="title">Side Projects</h1>
+  <div class="personal-projects-intro">
+    <p>I regularly build small tools and applications that solve problems I encounter in daily life. These projects help me explore new technologies and create solutions I actually use.</p>
+  </div>
+  <div class="personal-projects-grid">
+    <div class="personal-project-item">
+      <div class="project-icon">🗂️</div>
+      <h3>File Organizer</h3>
+      <p>Python automation script that monitors directories and organizes files by type</p>
+      <div class="tech-mini-tags">
+        <span>Python</span>
+        <span>Automation</span>
+      </div>
+      <button class="btn-personal-project" onclick="location.href='#'">
+        View on GitHub
+      </button>
+    </div>
+    <div class="personal-project-item">
+      <div class="project-icon">🎬</div>
+      <h3>Movie Recommender</h3>
+      <p>Fetches top movies from IMDb and provides personalized recommendations</p>
+      <div class="tech-mini-tags">
+        <span>Python</span>
+        <span>Web Scraping</span>
+      </div>
+      <button class="btn-personal-project" onclick="location.href='#'">
+        View on GitHub
+      </button>
+    </div>
+    <div class="personal-project-item">
+      <div class="project-icon">📈</div>
+      <h3>Crypto Sentiment Bot</h3>
+      <p>NLP-powered bot analyzing cryptocurrency sentiment on Twitter with Telegram alerts</p>
+      <div class="tech-mini-tags">
+        <span>Python</span>
+        <span>NLP</span>
+        <span>APIs</span>
+      </div>
+      <button class="btn-personal-project" onclick="location.href='#'">
+        View on GitHub
+      </button>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#testimonials'"
+  />
+</section>
+    <section id="testimonials">
+  <p class="section__text__p1">What Others Say</p>
+  <h1 class="title">Testimonials</h1>
+  <div class="testimonials-container">
+    <div class="testimonial-card">
+      <div class="testimonial-content">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">
+          I had the pleasure of working with Maher during his internship at Gross Innovations, and I can confidently say he brought tremendous value to our team. Maher quickly stood out for his curiosity, work ethic, and ability to tackle problems with both creativity and discipline. He showed strong initiative by diving into complex tasks, asking thoughtful questions, and delivering results ahead of schedule. Whether collaborating on team projects or working independently, Maher demonstrated professionalism, technical skill, and a genuine passion for innovation. I highly recommend Maher to any team looking for a sharp, driven, and dependable contributor. He has a bright future ahead and would be a strong asset to any organization.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-info">
+            <h4>Tristan Gross</h4>
+            <p>Manager at Gross Innovations</p>
+            <p>Direct Manager • June 2025</p>
+          </div>
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="linkedin-icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+</section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">maheer3301@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/maher-el-mir">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#personal-projects">Side Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Maher El Mir. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
